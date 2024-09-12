@@ -19,5 +19,10 @@
         background-color: transparent;
         cursor: pointer;
         @include uppercase;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background-color: $bg-primary;
+            color: $color-white;
+        }
     }
 </style>

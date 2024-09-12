@@ -36,6 +36,7 @@ export default {
     .social-links {
         display: flex;
         gap: 15px;
+        cursor: pointer;
         .img-logo {
             width: 35px;
             display: block;
