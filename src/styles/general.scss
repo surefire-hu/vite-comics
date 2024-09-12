@@ -2,6 +2,11 @@
 @use '../styles/partials/variables' as *;
 @use '../styles/partials/reset' as *;
 
+
+body {
+    font-family: "Open Sans";
+}
+
 li {
     all: unset;
 }
