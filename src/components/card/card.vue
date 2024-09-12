@@ -15,6 +15,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../styles/partials/mixin' as *;
+@use '../../styles/partials/variables' as *;
 
 .card {
     img {
@@ -23,10 +24,15 @@ export default {
         height: 200px;
         object-fit: cover;
         margin-bottom: 10px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.2;
+        }
     }
     h4 {
         @include uppercase;
         text-align: start;
+        color: $color-white;
     }
 }
 </style>

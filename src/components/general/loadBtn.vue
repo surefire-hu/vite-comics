@@ -21,5 +21,6 @@ export default {
     padding: 10px 50px;
     color: $color-white;
     @include uppercase;
+    cursor: pointer;
 }
 </style>
